@@ -9,6 +9,6 @@ function layout($structure = [], $params = null) {
 	}
 
 	foreach ($structure as $body) {
-		include(__DIR__.'/../views/'.$body.'.tpl.php');
+		include(__DIR__.'/../views/'.$body.'.php');
 	}
 }
