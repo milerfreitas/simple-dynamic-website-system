@@ -1,0 +1,97 @@
+[
+    {
+        "name": "nezamy/route",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nezamy/route.git",
+            "reference": "5f67f7bd52c121cb0925daf302fdb40474b9bc2a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nezamy/route/zipball/5f67f7bd52c121cb0925daf302fdb40474b9bc2a",
+            "reference": "5f67f7bd52c121cb0925daf302fdb40474b9bc2a",
+            "shasum": ""
+        },
+        "require": {
+            "nezamy/support": "1.0.*",
+            "php": ">=5.4.0"
+        },
+        "time": "2020-09-17T09:22:01+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "System\\": "system"
+            },
+            "files": [
+                "system/function.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mahmoud Elnezamy",
+                "email": "mahmoud@nezamy.com",
+                "homepage": "http://nezamy.com",
+                "role": "Full Stack Web Developer"
+            }
+        ],
+        "description": "Route - Fast, flexible routing for PHP, enabling you to quickly and easily build RESTful web applications.",
+        "homepage": "https://nezamy.com/route",
+        "keywords": [
+            "api",
+            "justframework",
+            "restful",
+            "route"
+        ]
+    },
+    {
+        "name": "nezamy/support",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nezamy/support.git",
+            "reference": "8803292708fbfa857bdd056c9b9dc883adc51414"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nezamy/support/zipball/8803292708fbfa857bdd056c9b9dc883adc51414",
+            "reference": "8803292708fbfa857bdd056c9b9dc883adc51414",
+            "shasum": ""
+        },
+        "time": "2018-06-04T14:53:46+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "System\\Support\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mahmoud Elnezamy",
+                "email": "mahmoud@nezamy.com",
+                "homepage": "http://nezamy.com",
+                "role": "Full Stack Web Developer"
+            }
+        ],
+        "description": "Support",
+        "homepage": "https://github.com/nezamy/support",
+        "keywords": [
+            "framework",
+            "justframework",
+            "micro",
+            "support"
+        ]
+    }
+]
