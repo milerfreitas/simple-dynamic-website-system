@@ -18,10 +18,6 @@ function validateInput($input = []) {
 
 	unset($input['required']);
 
-	if (isset($_POST['number'])) {
-		$input['number'] = $_POST['number'];
-	}
-
 	foreach ($input as $key => $value) :
 		switch ($key) {
 			case 'name':
