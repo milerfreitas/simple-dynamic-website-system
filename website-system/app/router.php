@@ -24,4 +24,6 @@ $route->get('/about', 'aboutPage');
 
 $route->get('/servicos', 'servicesPage');
 
+$route->any('/*', 'notFoundPage');
+
 $route->end();
